@@ -5,8 +5,7 @@ This work is to solve the problem to read time series data in *.pvtu* format. Pa
 
 ## To run
 ```python
-<pre><code> python getTimeData.py
-</code></pre>
+python getTimeData.py
 ```
 
 ## References:
