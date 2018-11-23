@@ -63,3 +63,15 @@ for pvtu_filename in pvtu_filenames0:
 #plt.plot(top_layer_x_time[2,:],top_layer_u2_time[2,:],'r-',label="timestep at "+str(timesteps00[2]))
 #plt.legend()
 #plt.show()
+
+
+
+# save data
+np.savetxt("x.txt",top_layer_x_time, delimiter=",")
+np.savetxt("y.txt",top_layer_y_time, delimiter=",")
+
+np.savetxt("u1.txt",top_layer_u1_time, delimiter=",")
+np.savetxt("u2.txt",top_layer_u2_time, delimiter=",")
+np.savetxt("u3.txt",top_layer_u3_time, delimiter=",")
+
+np.savetxt("timestep.txt",timesteps00, delimiter=",")
