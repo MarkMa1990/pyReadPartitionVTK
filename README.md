@@ -5,6 +5,9 @@ This work is to solve the problem to read time series data in *.pvtu* format. Pa
 
 # References:
 [1]. How to write VTK files in parallel. http://rotorbit.blogspot.com/2017/02/how-to-write-vtk-files-in-parallel.html
+
 [2]. https://www.vtk.org/Wiki/VTK/Examples/Python
+
 [3]. https://www.paraview.org/Wiki/ParaView/ParaView_Readers_and_Parallel_Data_Distribution
+
 [4]. Read VTK file and plot with matplotlib. https://perso.univ-rennes1.fr/pierre.navaro/read-vtk-with-python.html
